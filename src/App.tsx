@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { PlayerProvider } from './context/PlayerContext';
 import { Navigation } from './components/Navigation';
 import { AudioPlayer } from './components/AudioPlayer';

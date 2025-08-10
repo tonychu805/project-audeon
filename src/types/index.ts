@@ -24,4 +24,4 @@ export interface PlayerState {
   isPlaying: boolean;
   isExpanded: boolean;
   savedTracks: string[];
-}</parameter>
+}

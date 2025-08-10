@@ -4,12 +4,12 @@ interface EarLogoProps {
   className?: string;
 }
 
-export const EarLogo: React.FC<EarLogoProps> = ({ className = "w-6 h-6" }) => {
+export const EarLogo: React.FC<EarLogoProps> = ({ className = "w-9 h-9" }) => {
   return (
     <img 
       src="/images/Amplify_Logo-removebg-preview.png" 
       alt="Audeon Logo" 
-      className="w-9 h-9"
+      className={className}
     />
   );
 };
